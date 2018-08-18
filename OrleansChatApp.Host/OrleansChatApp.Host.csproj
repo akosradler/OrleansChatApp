@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.Orleans.OrleansRuntime" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OrleansChatApp.Utils\OrleansChatApp.Utils.csproj" />
+  </ItemGroup>
+
 </Project>

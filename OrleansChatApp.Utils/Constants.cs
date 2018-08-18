@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Utils
+namespace OrleansChatApp.Utils
 {
     public static class Constants
     {
