@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OrleansChatApp.Grains
 {
-    public class UserGrain : ReduxGrain<UserStateModel>
-    {
-    }
+    //public class UserGrain : ReduxGrain<UserStateModel>
+    //{
+    //}
 }

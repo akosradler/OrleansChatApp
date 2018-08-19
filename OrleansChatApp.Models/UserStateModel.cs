@@ -4,6 +4,7 @@ namespace OrleansChatApp.Models
 {
     public class UserStateModel
     {
-        public string Name { get; set; }
+        public string UserName { get; set; }
+        public int UserId;
     }
 }
