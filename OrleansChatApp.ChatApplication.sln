@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansChatApp.ChatApp", "OrleansChatApp.ChatApp\OrleansChatApp.ChatApp.csproj", "{F86634C5-84A3-4096-8C86-A394DD951D24}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansChatApp.Grains", "OrleansChatApp.Grains\OrleansChatApp.Grains.csproj", "{91140941-CAC8-4D3F-8208-058A83629539}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansChatApp.Utils", "OrleansChatApp.Utils\OrleansChatApp.Utils.csproj", "{715321E8-FFCB-4E5E-A219-1D8A55B54474}"
@@ -13,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansChatApp.Grains.Inter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansChatApp.Host", "OrleansChatApp.Host\OrleansChatApp.Host.csproj", "{4932DB1C-235B-466C-8F4C-B71C1EF8DDF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansChatApp.Models", "OrleansChatApp.Models\OrleansChatApp.Models.csproj", "{3F3B3515-CEA9-46A8-9D23-5EEFE99DA2A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansChatApp.Models", "OrleansChatApp.Models\OrleansChatApp.Models.csproj", "{3F3B3515-CEA9-46A8-9D23-5EEFE99DA2A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F86634C5-84A3-4096-8C86-A394DD951D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F86634C5-84A3-4096-8C86-A394DD951D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F86634C5-84A3-4096-8C86-A394DD951D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F86634C5-84A3-4096-8C86-A394DD951D24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{91140941-CAC8-4D3F-8208-058A83629539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{91140941-CAC8-4D3F-8208-058A83629539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91140941-CAC8-4D3F-8208-058A83629539}.Release|Any CPU.ActiveCfg = Release|Any CPU

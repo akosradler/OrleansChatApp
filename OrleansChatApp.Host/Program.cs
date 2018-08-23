@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Net;
 using System.Runtime.CompilerServices;
-using GrainImplementation;
 using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Configuration;
@@ -9,6 +8,7 @@ using Orleans.Hosting;
 using Orleans.Runtime;
 using Orleans.Runtime.Configuration;
 using Orleans.Streams;
+using OrleansChatApp.Grains;
 using OrleansChatApp.Utils;
 
 namespace OrleansChatApp.Host
@@ -25,7 +25,7 @@ namespace OrleansChatApp.Host
                 })
                 .UseLocalhostClustering()
                 .Configure<EndpointOptions>(options => options.AdvertisedIPAddress = IPAddress.Loopback)
-                .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(Channel).Assembly).WithReferences())
+                .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(UserGrain).Assembly).WithReferences())
                 .ConfigureLogging(logging => logging.AddConsole())
                 //need to configure a grain storage called "PubSubStore" for using streaming with ExplicitSubscribe pubsub type
                 .AddMemoryGrainStorage("PubSubStore")
